@@ -1,0 +1,132 @@
+.logo {
+  text-align: center;
+  font-size: 30px;
+
+  h1 {
+    font-family: $text-logo;
+    padding: 20px;
+  }
+}
+.title {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: $text-police;
+  .main_title {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 10px;
+  }
+  .main_text {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+.search {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background-color: #e5e5e5;
+}
+input {
+  height: 50px;
+  background-color: #e5e5e5;
+  border: none;
+  margin-left: 20px;
+  ::after {
+    border: none;
+  }
+}
+.third_title {
+  .fa-heart {
+    color: #686565;
+    font-size: 1.6rem;
+    margin-top: 10px;
+    margin-right: 10px;
+    &:hover {
+      cursor: pointer;
+      animation: heart 2s ease-out;
+      background: linear-gradient(#ff79da, #9356dc);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: bold;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 467px) {
+  p {
+    font-family: $text-police;
+    font-weight: bolder;
+  }
+  h1 {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  .search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    i {
+      padding-top: 15px;
+      padding-left: 70px;
+    }
+  }
+  .title {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    height: 100%;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    align-content: center;
+    .main_title {
+      padding-top: 10px;
+      font-size: 2.4em;
+      font-weight: bold;
+    }
+    .main_text {
+      font-size: 1.3em;
+      font-weight: lighter;
+    }
+  }
+}
+/* HEADER FOR RESTAURANT PAGE */
+.third_resto_img {
+  width: 100%;
+  height: auto;
+  img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+  }
+}
+.third_title {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 10px;
+  h3 {
+    font-family: $text-logo;
+    font-size: 1.4em;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  span {
+    margin-left: 100px;
+  }
+}
+@media (min-width: 320px) and (max-width: 467px) {
+  .third_resto_img {
+    width: 100%;
+    height: auto;
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

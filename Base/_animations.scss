@@ -1,0 +1,40 @@
+.third_title,
+.main_resto {
+  transition: all 0.75s;
+  .fa-heart {
+    color: #686565;
+    font-size: 1.6rem;
+    &:hover {
+      cursor: pointer;
+      animation: heart 2s ease-out;
+      background: linear-gradient(#ff79da, #9356dc);
+      background-clip: text;
+      font-weight: bold;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+.loading {
+  background-color: #eaeaea;
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  animation: loading 400ms 2s;
+  animation-fill-mode: both;
+  z-index: 10000;
+  position: fixed;
+}
+.loader {
+  border: 16px solid #fff;
+  border-radius: 50%;
+  border-top: 16px solid #ff79da;
+  border-bottom: 16px solid #9356dc;
+  border-left: 16px solid #99e2d0;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: auto;
+  top: 50%;
+  position: relative;
+}

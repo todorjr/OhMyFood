@@ -1,0 +1,22 @@
+@mixin button {
+  border-radius: 40px;
+  border: 1px solid #ff79d9;
+  padding: 15px;
+  background: linear-gradient(175deg, #ff79d9 10%, #9356dc 90%);
+  color: #fff;
+  cursor: pointer;
+  margin: 30px;
+}
+@mixin main_btn {
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(175deg, #ff79da 10%, #9356dc 90%);
+  margin-top: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+@mixin btn_francais {
+  text-align: center;
+  padding: 10px;
+}

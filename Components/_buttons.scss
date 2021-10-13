@@ -1,0 +1,14 @@
+.main_btn {
+  @include main_btn;
+  a {
+    padding: 5px;
+  }
+}
+
+/*BUTTON IN RESTAURANT PAGE */
+.button-francaise {
+  @include btn_francais;
+  .btn_francaise {
+    @include button;
+  }
+}

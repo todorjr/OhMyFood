@@ -1,0 +1,132 @@
+.restaurants {
+  display: flex;
+  flex-direction: row;
+  background-color: #f0f0f0;
+  font-family: $text-police;
+  font-weight: bold;
+  .main_resto {
+    border-radius: 20px;
+    width: 100%;
+    height: 200px;
+    margin: 40px 40px 20px 0;
+    background-color: #fff;
+    box-shadow: 1px 1px 8px #eaeaea;
+    position: relative;
+    .noveau {
+      border: none;
+      border-radius: 1px;
+      right: 10px;
+      top: 10px;
+      position: absolute;
+      margin-top: 10px;
+      color: #00ac6a;
+      padding: 2px 7px 2px 7px;
+      background-color: #99e2d0;
+      font-family: $text-police;
+      font-weight: bold;
+    }
+    img {
+      border-radius: 20px;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      object-fit: cover;
+      width: 100%;
+      height: 50%;
+      margin-top: 0;
+    }
+    &:hover {
+      transition: 1s;
+      box-shadow: 5px 5px 5px 0px #b2b0b0;
+      cursor: pointer;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .fa-heart {
+    float: right;
+    margin-right: 10px;
+  }
+  h3,
+  p {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 320px) and (max-width: 467px) {
+  .restaurants {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    .fa-heart {
+      margin-left: 200px;
+      top: 20%;
+    }
+    .title_resto {
+      margin-top: 40px;
+      margin-left: 20px;
+      font-weight: bold;
+      h2 {
+        font-weight: bold;
+      }
+    }
+    .bloc_function {
+      width: 70%;
+      margin-left: 5px;
+    }
+    .main_resto {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      height: 70%;
+      width: 92%;
+      margin: 20px 15px 20px 15px;
+      box-shadow: 0 2px 8px #dbdbdb;
+      .noveau {
+        border: none;
+        border-radius: 1px;
+        margin-left: 300px;
+        position: absolute;
+        margin-top: 10px;
+        background-color: #99e2d0;
+        color: #0ea340;
+        padding: 5px 7px 5px 7px;
+        font-weight: 900;
+      }
+      img {
+        height: 170px;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      h3 {
+        margin-left: 10px;
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+      p {
+        margin-left: 10px;
+        font-size: 0.8rem;
+        font-weight: lighter;
+        .fa-heart {
+          margin: 0 30px 10px 0;
+        }
+      }
+    }
+  }
+}
+@media (min-width: 468px) and (max-width: 768px) {
+  .restaurants {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    .main_resto {
+      width: 92%;
+      margin-left: 20px;
+    }
+  }
+}
