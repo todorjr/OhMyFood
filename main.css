@@ -575,7 +575,7 @@ section .numbers {
   position: relative;
   border-radius: 100px;
   color: #f8f8f8;
-  background-color: #ac6bf9;
+  background-color: #af6dff;
 }
 
 /*SECTION FOR RESTAURANT PAGE */
@@ -965,7 +965,7 @@ section .numbers {
     position: relative;
     border-radius: 100px;
     color: #f8f8f8;
-    background-color: #ac6bf9;
+    background-color: #af6dff;
   }
 }
 
@@ -1104,4 +1104,3 @@ section .numbers {
     opacity: 1;
   }
 }
-/*# sourceMappingURL=main.css.map */
