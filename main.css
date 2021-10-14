@@ -568,14 +568,14 @@ section .bloc_function:hover .fa-list-ul {
 }
 
 section .numbers {
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   left: -30px;
   top: 20px;
   position: relative;
   border-radius: 100px;
   color: #f8f8f8;
-  background-color: #9356dc;
+  background-color: #ac6bf9;
 }
 
 /*SECTION FOR RESTAURANT PAGE */
@@ -958,14 +958,14 @@ section .numbers {
     color: #000000;
   }
   section .numbers {
-    width: 35px;
-    height: 35px;
+    width: 20px;
+    height: 20px;
     left: -30px;
     top: 20px;
     position: relative;
     border-radius: 100px;
     color: #f8f8f8;
-    background-color: #9356dc;
+    background-color: #ac6bf9;
   }
 }
 
